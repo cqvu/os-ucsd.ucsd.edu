@@ -11,12 +11,10 @@
 - Fork https://github.com/os-ucsd/os-ucsd.ucsd.edu
 
 ### Step 3: 
-- Clone the forked repo to local machine git clone [forked-repo-url] 
+- Clone the forked repo to local machine git clone [forked-repo-url]  
+- cd into the cloned repo by doing: cd os-ucsd.ucsd.edu
   
 ### Step 4: 
-- cd into the cloned repo cd os-ucsd.ucsd.edu
-  
-### Step 5: 
 - Set up origin as your forked repo and upstream as original repo
 - git remote add origin [forked-repo-url] (same as clone url; if it says origin is already added then you’re all set for this step) 
 - git remote add upstream [original-repo-url] 
@@ -25,60 +23,48 @@
   *this is for after you have made edits*
 - git pull upstream master (get updates from original repo)
 
-### Step 6: 
+### Step 5: 
 - Installing dependencies: npm install
 
-### Step 7: 
+### Step 6: 
 - To see the current site: npm start
 
-### Step 8: 
+### Step 7: 
 - you can start editing code now :)
   
   
 ## How to push your edited code and merge with original repository 👩‍💻:
 
 ### Step 1: 
-- git add . 
-  
-### Step 2: 
+- git add .  
 - git commit -m "some message"
   
-### Step 3: 
+### Step 2: 
 - git pull upstream master 
   *important: make sure you have set the upstream in setup^*
-  
-### Step 4: 
 - Fix merge conflicts (if there is)
   
-### Step 5: 
-- git add . (yep, again)
-  
-### Step 6:  
+### Step 3: 
+- git add . (yep, again)  
 - git commit -m "another message"
   
-### Step 7: 
+### Step 4: 
 - git push origin master (this should update the code in your forked repository; the original repo has not been changed yet)
   
-### Step 8: 
+### Step 5: 
 - go to your forked repository on Github 
   *not the original one*
   
-### Step 9: 
+### Step 6: 
 - Click where it says Pull requests (next to Code)
-  
-### Step 10: 
 - Click New Pull Request
-  
-### Step 11: 
 - Make sure it looks like this
   
-### Step 12: 
-- Complete the pull request - A collaborator will review/accept your pull request
-  
-### Step 13: 
+### Step 7: 
+- Complete the pull request - A collaborator will review/accept your pull request 
 - The original repository now has your code
   
-### Step 14: 
+### Step 8: 
 - EYYY you have successfully contributed to our website☺️ 
 
 ## To find the components (code):
